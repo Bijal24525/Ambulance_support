@@ -1,0 +1,102 @@
+/* Custom CSS for the marker icon */
+.custom-marker-icon {
+    /* Add your custom styles here */
+    width: 25px;
+    height: 41px;
+    background-image: url("./placeholder1.png");
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* map.css */
+
+/* Custom CSS for the current location marker */
+.current-location-marker {
+   /* Add your custom styles here */
+    width: 25px;
+    height: 41px;
+    background-image: url("./placeholder.png");
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  } 
+  
+  /* Custom CSS for the destination marker */
+  .destination-marker {
+    /* Add your custom styles here */
+    width: 25px;
+    height: 41px;
+    background-image: url("./placeholder1.png");
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Custom CSS for "Your Location" marker */
+  .your-location-marker {
+    /* Add your custom styles here */
+    width: 25px;
+    height: 41px;
+    background-image: url("./placeholder1.png");
+    background-size: cover;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+
+  /* Add custom styles for the destination marker icon */
+  .custom-current-location-marker {
+    background-image: url('./placeholder1.png');
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+  }
+  
+  .custom-destination-marker {
+    background-image: url('./placeholder1.png');
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+  }
+  
+
+  
+  /* Custom CSS for the marker popup */
+  .custom-marker-popup {
+    /* Add your custom styles here */
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  
+  /* Custom CSS for the marker popup text */
+  .custom-marker-popup h3 {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .custom-marker-popup p {
+    margin: 5px 0;
+  }
+  
+
+  /* .current-location-marker {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .current-location-marker::after {
+    content: "";
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    border-radius: 50%;
+  } */

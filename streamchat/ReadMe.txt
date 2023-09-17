@@ -1,0 +1,1 @@
+Rename dotenv.txt to .env and input the related keys.

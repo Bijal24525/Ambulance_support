@@ -1,0 +1,74 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+
+.container {
+    position: relative;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    /* z-index: LoginIndex.base; */
+  }
+  
+  .topCurve {
+    position: absolute;
+    top: 0;
+    height: 135px;
+    width: 100%;
+    /* z-index: LoginIndex.curve; */
+  }
+  
+  .formContainer {
+    justify-content: space-evenly;
+    align-items: center;
+    /* z-index: LoginIndex.formContainer; */
+  }
+  
+  .logo {
+    margin-bottom: 15px;
+  }
+  
+  .textBox {
+    width: 275px;
+    font-size: 18px;
+  }
+  
+  .errorText {
+    font-size: 15px;
+    text-align: center;
+    /* color: Colors.errorText; */
+    margin-top: 10px;
+  }
+  
+  .loginButton {
+    width: 275px;
+    height: 45px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .loginButtonContent {
+    font-size: 18px;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .signUpContainer {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .signUpLink {
+    /* color: Colors.link; */
+  }
+  
+  .bottomCurve {
+    position: absolute;
+    bottom: 0;
+    height: 135px;
+    width: 100%;
+    /* z-index: LoginIndex.curve; */
+  }
+  

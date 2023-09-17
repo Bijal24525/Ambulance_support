@@ -1,0 +1,29 @@
+.form-block {
+    width: 500px;
+    margin: 150px auto;
+    margin-bottom: 0;
+}
+.form-block .form-card {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    padding: 60px 50px;
+}
+.form-block h1 {
+    font-size: 28px;
+    text-transform: uppercase;
+}
+.form-block .title {
+    color: #22db6e;
+}
+.form-block button {
+    height: 60px;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    background-color: rgb(37, 169, 240);
+    margin: 10px 0;
+}
+.form-block .logout {
+    background-color: #e83939;
+}
